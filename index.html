@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script defer src="Scripts/movies.js"></script> 
+        <script defer src="Scripts/filmzoeker.js"></script>
+        <title> Filmzoeker </title>
+        <link rel="stylesheet" type="text/css" href="CSS/styles.css">
+    </head>
+
+
+    <body>
+        <header>
+           <h1>Welkom bij de Filmzoeker!</h1> 
+        </header>
+
+        <nav class="main-nav">
+            <label>Films vanaf 2014 (nieuw) <input type="radio" class="nieuwe_films" value="nieuwe_films" name="film_filter"></label>
+            <label>Avengers <input type="radio" class="titel" value="avengers" name="film_filter"></label>
+            <label>X-men <input type="radio" class="titel" value="x-men" name="film_filter"></label>
+            <label>Princess <input type="radio" class="titel" value="princess" name="film_filter"></label>
+            <label>Batman <input type="radio" class="titel" value="batman" name="film_filter"></label>
+        </nav>
+
+        <main class="grid">
+            <ul id="movie-list">
+                
+            </ul>
+        </main>
+   
+        <footer>
+            <p>In de module CSS werd verteld dat je geen ID maar Classes moest gebruiken. In deze module worden wel ID's gebruikt. Is dat omdat IDs makkelijk te selecteren zijn met JS? </p>
+        </footer>
+    </body>
+</html>
